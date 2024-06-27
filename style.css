@@ -1,0 +1,113 @@
+body {
+    background-color: #141419;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fonte-inria-sans {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.descricao {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.data {
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.negrito.text-success {
+    color: #67C806;
+}
+
+.texto-cinza {
+    color: #A1A5A1;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.filtro {
+    background-color: #e0e0e0;
+    margin-right: 3%;
+    border-radius: 15px;
+    border: none;
+    padding: 7px 13px;
+    font-size: 1rem;
+}
+
+.filtro.active {
+    background-color: #FCF300;
+}
+
+.lista-itens {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px 0;
+    color: #000;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.menu-icones {
+    width: 27px;
+}
+
+.menu {
+    background-color: #292933;
+    border-radius: 12px 12px 0 0;
+    padding: 20px 0;
+}
+
+.menu-icones {
+    width: 27px;
+}
+
+.icones-extrato {
+    width: 27px;
+    height: 27px;
+}
+
+.fundo-extrato {
+    background-color: #fff;
+    border-radius: 50px;
+    height: 670px;
+}
+
+.fundo-icones-extrato {
+    background-color: #F5F5F5;
+    border-radius: 12px;
+}
